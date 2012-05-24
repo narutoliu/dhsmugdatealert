@@ -1,0 +1,6 @@
+headerbody {background-color:white;}
+footer{background-color:blue;clear:both;text-align:center;color: white;}
+#alert{color: red;}
+#error{color: red;}
+#today{color: green;}
+img{width: 200px; height: 200px; margin-top: 5px;}

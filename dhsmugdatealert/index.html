@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head><title>test date alert</title>
+<meta name="viewport" content="width=device-width, height=device-height, user-scalable=no"> 
+ <link rel="stylesheet" href="/static/style.css" />
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<META HTTP-EQUIV="content-type" CONTENT="text/html; charset=utf-8">
+</head>
+<body>
+
+<center><img alt="dhs logo" src="static/logo.jpg"></center>
+<center><p id="date"><b>DHS test date alert</b></p></center>
+<label for="name"><center><form method="post" action="/analysis">
+	enter your name:</center><center><input type="text" id="name" name="name"><center><i>eg:liu.fengyuan</i></center>
+	<br>
+	<center><input type="submit" value="submit" ></center>
+</form>
+<center><p id="today">TODAY IS!!!</p><b><script type="text/javascript">
+<!--
+
+var m_names = new Array("January", "February", "March",
+"April", "May", "June", "July", "August", "September",
+"October", "November", "December");
+
+var d = new Date();
+var curr_date = d.getDate();
+var curr_month = d.getMonth();
+var curr_year = d.getFullYear();
+document.write(curr_date + "-" + m_names[curr_month]
++ "-" + curr_year);
+
+
+
+//-->
+</script></b></center>
+</div>
+</body>
+<div id="footer"><footer>
+<b>&copy feng yuan</b></footer>
+</div>
